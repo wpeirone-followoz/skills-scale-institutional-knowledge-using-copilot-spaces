@@ -38,5 +38,7 @@ Incident Communication
 - Post-incident blameless retrospective scheduled
 
 ## Escalation Paths
-- Team-level -> PM -> Product Lead -> Sponsor
+- Team-level -> PM -> Product Lead -> Sponsor/Stakeholder
+- Quality issues: Developer -> QA Lead -> PM -> Sponsor
+- Infrastructure/deployment issues: Developer -> DevOps Engineer -> PM
 - For security incidents, follow the security incident runbook and notify Security on-call

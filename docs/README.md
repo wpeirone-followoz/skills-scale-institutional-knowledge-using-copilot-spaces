@@ -32,7 +32,7 @@ For the full overview, see [`octoacme-project-management-overview.md`](./octoacm
 
 ## Core Roles & Responsibilities
 
-Three roles are most directly involved in program and project management at OctoAcme. Detailed persona definitions are in [`octoacme-roles-and-personas.md`](./octoacme-roles-and-personas.md).
+Eight roles are involved in program and project management at OctoAcme. Detailed persona definitions, responsibilities, goals, and interaction touchpoints are in [`octoacme-roles-and-personas.md`](./octoacme-roles-and-personas.md).
 
 ### Project Manager (PM)
 - Owns project plans, timelines, and milestone tracking
@@ -51,6 +51,31 @@ Three roles are most directly involved in program and project management at Octo
 - Write and maintain tests and documentation
 - Participate in design reviews, estimation, and planning
 - Help identify and mitigate technical risks
+
+### UX Designer
+- Develop user flows, wireframes, and prototypes
+- Conduct user research and usability testing
+- Advocate for user needs throughout planning and reviews
+
+### Business Analyst
+- Gather and refine business requirements from stakeholders
+- Create detailed acceptance criteria and process maps
+- Validate that features align with business goals
+
+### QA Lead
+- Define and maintain the overall testing strategy
+- Oversee test case creation, execution, and coverage tracking
+- Coordinate user acceptance testing and report quality metrics
+
+### DevOps Engineer
+- Own CI/CD pipelines and deployment automation
+- Monitor infrastructure, system health, and observability
+- Define and maintain rollback and disaster recovery plans
+
+### Sponsor / Stakeholder
+- Set business goals and approve key milestones
+- Allocate funding and resources for project delivery
+- Provide strategic feedback and unblock organizational issues
 
 ---
 
@@ -164,7 +189,7 @@ Escalation path: Team standup → PM → Product Lead → Sponsor. Security inci
 | File | Topic |
 |---|---|
 | [`octoacme-project-management-overview.md`](./octoacme-project-management-overview.md) | High-level overview, principles, roles, and lifecycle |
-| [`octoacme-roles-and-personas.md`](./octoacme-roles-and-personas.md) | Detailed persona definitions for PM, PdM, and Developers |
+| [`octoacme-roles-and-personas.md`](./octoacme-roles-and-personas.md) | Detailed persona definitions for all roles: PM, PdM, Developers, UX Designer, Business Analyst, QA Lead, DevOps Engineer, and Sponsor/Stakeholder |
 | [`octoacme-project-initiation.md`](./octoacme-project-initiation.md) | Initiation process, one-pager template, and decision gate |
 | [`octoacme-project-planning.md`](./octoacme-project-planning.md) | Planning activities, backlog template, sprint planning |
 | [`octoacme-execution-and-tracking.md`](./octoacme-execution-and-tracking.md) | Execution workflows, PR conventions, quality, and escalation |
