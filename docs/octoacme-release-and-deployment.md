@@ -16,11 +16,15 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - Smoke tests prepared
 
 ## Deployment Checklist
+- [ ] QA Lead sign-off: all acceptance criteria met and test cases passing
+- [ ] DevOps Engineer confirms deployment pipeline is ready
 - [ ] Deployment window scheduled (if needed)
 - [ ] Backup or snapshot (if applicable)
 - [ ] Deploy to staging and run smoke tests
+- [ ] QA Lead validates staging environment
 - [ ] Deploy to production (automated pipeline preferred)
 - [ ] Run post-deploy verifications
+- [ ] DevOps Engineer confirms system health and observability dashboards
 - [ ] Announce release to stakeholders and support
 
 ## Rollback & Incident Playbook

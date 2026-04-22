@@ -31,10 +31,13 @@ Whenever a new project idea or feature proposal is ready to be explored.
 
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
-- [ ] Sponsor / Stakeholder alignment (email or meeting)
+- [ ] UX Designer consulted on user impact and feasibility
+- [ ] Business Analyst engaged to document initial requirements
+- [ ] Sponsor / Stakeholder alignment confirmed (email or meeting)
 - [ ] Decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)
+- [ ] Roles assigned: PM, PdM, UX Designer, Business Analyst, QA Lead, DevOps Engineer, Sponsor
 
 ## Decision Gate
 Move to planning when:

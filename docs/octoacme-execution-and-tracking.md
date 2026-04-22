@@ -22,6 +22,13 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - End-to-end smoke tests for critical flows before release
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
+- QA Lead reviews test coverage and signs off on sprint completion
+- Automated tests integrated into CI/CD pipeline by DevOps Engineer
+
+## Roles in Execution
+- **QA Lead**: monitors test coverage, raises quality issues, coordinates UAT with Product Manager
+- **DevOps Engineer**: maintains CI/CD pipelines, ensures environments are stable, supports deployments
+- **UX Designer**: reviews implemented features against design specs; participates in demos
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -35,6 +42,7 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
-- [ ] CI configured for tests and lint
-- [ ] Regular demos scheduled
+- [ ] CI configured for tests and lint (coordinated with DevOps Engineer)
+- [ ] QA Lead engaged and test strategy active
+- [ ] Regular demos scheduled with stakeholders
 - [ ] Risk register updated weekly
