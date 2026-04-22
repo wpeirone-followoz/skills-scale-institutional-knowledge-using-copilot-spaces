@@ -6,7 +6,19 @@
 
 ## Purpose
 
-This overview helps new contributors get up to speed quickly on how OctoAcme plans, tracks, and ships work. It synthesizes the key concepts from the full set of process documents in this directory and points to the detail docs for each topic.
+This README is the **central entry point** for all OctoAcme project management resources. It is designed to help anyone — whether onboarding for the first time, refreshing your knowledge, or looking up a specific process — quickly find the right documentation. Use the [Document Index](#document-index) below to jump directly to any process guide.
+
+---
+
+## OctoAcme Project Management — At a Glance
+
+OctoAcme's project management processes are designed to ensure clarity, alignment, and consistent delivery across cross-functional teams. The approach begins with a clear initiation phase, where each project is assessed for business need, stakeholder alignment, and success criteria, documented succinctly in a Project One-pager. Once greenlit, planning activities focus on breaking work into manageable increments, estimating effort, defining dependencies, and establishing a prioritized backlog — all clearly mapped out with roles and deliverables.
+
+A well-defined set of personas underpins OctoAcme's approach, each with distinct responsibilities and interaction points. Project Managers coordinate schedules, risks, and communication, while Product Managers own the roadmap and outcomes. Developers, UX Designers, QA Leads, Business Analysts, DevOps Engineers, and Sponsors/Stakeholders collaborate according to a detailed interaction matrix, ensuring that decisions, feedback, and accountability are distributed throughout the lifecycle. Clear ownership and regular checkpoints — such as standups, sprint planning, and retrospectives — are central to transparency.
+
+Communication strategies emphasize frequent, purpose-driven interactions at all levels. Weekly syncs between PM and PdM ensure alignment; standups and demos embed feedback loops within the delivery team; and stakeholders receive regular updates and escalation paths for risks or blockers. Templates for status reporting, incident management, and risk communication provide consistency and traceability, helping everyone stay informed and responsive.
+
+Quality assurance is not limited to testing at the end. Instead, QA Leads are integral from planning through release, driving a comprehensive test strategy that covers unit, integration, and end-to-end tests, as well as manual QA for key flows. Automated tests in CI/CD pipelines, clear definitions of done and acceptance criteria, and sign-off procedures ensure that every release meets agreed standards. Continuous improvement is prioritized by capturing retrospectives and tracking action items, fostering a learning culture that iterates on both product and process.
 
 ---
 
@@ -196,6 +208,10 @@ Escalation path: Team standup → PM → Product Lead → Sponsor. Security inci
 | [`octoacme-release-and-deployment.md`](./octoacme-release-and-deployment.md) | Release types, deployment checklist, rollback playbook |
 | [`octoacme-retrospective-and-continuous-improvement.md`](./octoacme-retrospective-and-continuous-improvement.md) | Retrospective structure and continuous improvement culture |
 | [`octoacme-risks-and-communication.md`](./octoacme-risks-and-communication.md) | Risk register, stakeholder communication, escalation paths |
+
+### Templates & Checklists
+
+Additional issue templates and checklists for requesting process document updates are available in the [`.github/ISSUE_TEMPLATE`](../.github/ISSUE_TEMPLATE) folder. Use these templates to propose additions or updates to any process document.
 
 ---
 
